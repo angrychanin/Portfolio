@@ -3,7 +3,7 @@ var express = require("express"),
 
 // Set up
 app.set("view engine", "ejs");
-app.use(express.static(__dirname + "/public"));
+app.use(express.static(__dirname + "/scss"));
 
 //Routes
 app.get("/", (req, res) => {

@@ -1,6 +1,6 @@
 /* navbar */
 .navbar {
-  font-size: 23px;
+  font-size: 22px;
   font-weight: 600;
 }
 
@@ -39,7 +39,22 @@ body {
   font-weight: 400;
 }
 
+/* About {
+  font-family: "Roboto Mono", monospace;
+} */
 /* Work */
+.card-img-top {
+  height: 250px;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card:hover {
+  -webkit-box-shadow: -1px 9px 40px -12px black;
+  -moz-box-shadow: -1px 9px 40px -12px black;
+  box-shadow: 1px 9px 40px -12px black;
+}
 /* About {
   font-family: "Roboto Mono", monospace;
 } */

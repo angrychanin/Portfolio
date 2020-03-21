@@ -1,4 +1,6 @@
 @import "font";
+$hoverEasing: cubic-bezier(0.23, 1, 0.32, 1);
+$returnEasing: cubic-bezier(0.445, 0.05, 0.55, 0.95);
 
 /* navbar */
 .navbar {
@@ -38,8 +40,38 @@ body {
   font-weight: 400;
 }
 
-/* Work */
+/* About {
+  font-family: "Roboto Mono", monospace;
+} */
 
+/* Work */
+.img-resize {
+  height: 250px;
+  width: auto;
+}
+
+.con1 {
+  width: 1000px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+
+  & .card {
+    position: relative;
+
+    & .face {
+      width: 300px;
+      height: 200px;
+      transition: 0.5s;
+
+      & .face1 {
+        position: relative;
+        display: flex;
+        justify-content: center;
+      }
+    }
+  }
+}
 /* About {
   font-family: "Roboto Mono", monospace;
 } */
