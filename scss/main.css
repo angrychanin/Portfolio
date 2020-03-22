@@ -52,9 +52,9 @@ body {
 
 .card:hover {
   -webkit-box-shadow: -1px 9px 40px -12px black;
-  -moz-box-shadow: -1px 9px 40px -12px black;
   box-shadow: 1px 9px 40px -12px black;
 }
+
 /* About {
   font-family: "Roboto Mono", monospace;
 } */
