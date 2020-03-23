@@ -17,6 +17,7 @@ body {
 .top-jumbotron {
   height: 100vh;
   /*vh = viewport height;*/
+  background-color: #eeeeee;
 }
 
 .start {
@@ -24,6 +25,10 @@ body {
   top: 45%;
   -webkit-transform: perspective(1px) translateY(-50%);
           transform: perspective(1px) translateY(-50%);
+}
+
+.name {
+  color: #fd7014;
 }
 
 .p1 {

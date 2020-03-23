@@ -1,7 +1,12 @@
 @import "font";
+@import "color";
 $hoverEasing: cubic-bezier(0.23, 1, 0.32, 1);
 $returnEasing: cubic-bezier(0.445, 0.05, 0.55, 0.95);
 
+// function
+@function color($color-name) {
+  @return map-get($color, $color-name);
+}
 // structure
 .min100vh {
   height: 100vh;
@@ -21,6 +26,7 @@ body {
 /* Start */
 .top-jumbotron {
   height: 100vh; /*vh = viewport height;*/
+  background-color: color(dark-1);
 }
 .start {
   position: relative;
@@ -29,7 +35,7 @@ body {
 }
 
 .name {
-  color: orange;
+  color: color(orange-1);
 }
 
 .p1 {
