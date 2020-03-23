@@ -15,8 +15,13 @@ $returnEasing: cubic-bezier(0.445, 0.05, 0.55, 0.95);
   font-weight: font-w(bold);
 }
 
+.bg-dark {
+  background: linear-gradient(black 10%, #0000) !important;
+}
+
 body {
   font-family: "Roboto Condensed", sans-serif;
+  background-color: #14121c;
 }
 
 @import "start";

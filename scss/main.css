@@ -9,15 +9,21 @@
   font-weight: 600;
 }
 
+.bg-dark {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, black), to(#0000)) !important;
+  background: linear-gradient(black 10%, #0000) !important;
+}
+
 body {
   font-family: "Roboto Condensed", sans-serif;
+  background-color: #14121c;
 }
 
 /* Start */
 .top-jumbotron {
   height: 100vh;
   /*vh = viewport height;*/
-  background-color: #eeeeee;
+  background-color: #222831;
 }
 
 .structure {
@@ -136,5 +142,9 @@ footer {
 .contact {
   padding-left: 130px;
   margin-top: 30px;
+}
+
+footer {
+  background-color: #0e0d10;
 }
 /*# sourceMappingURL=main.css.map */
