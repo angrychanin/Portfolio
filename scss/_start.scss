@@ -1,0 +1,28 @@
+/* Start */
+.top-jumbotron {
+  height: 100vh; /*vh = viewport height;*/
+  background-color: color(dark-1);
+}
+.start {
+  position: relative;
+  top: 45%;
+  transform: perspective(1px) translateY(-50%);
+}
+
+.name {
+  color: color(orange-1);
+}
+
+.p1 {
+  font-size: font-s(header);
+  font-weight: font-w(bold);
+}
+
+.p2 {
+  font-size: font-s(start-2);
+}
+
+.design {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 400;
+}

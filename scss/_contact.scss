@@ -1,0 +1,23 @@
+//contact
+.wrap {
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  font-size: font-s(contact);
+}
+
+footer {
+  min-height: 560px;
+}
+
+.find-me {
+  font-size: 22.4px;
+}
+
+.btn {
+  font-size: font-s(button);
+  color: white;
+}
+
+.fa-1x {
+  color: color(orange-1);
+}
