@@ -3,10 +3,11 @@
   height: 100vh; /*vh = viewport height;*/
   background-color: color(dark-1);
 }
-.start {
+.structure {
   position: relative;
-  top: 45%;
+  top: 48%;
   transform: perspective(1px) translateY(-50%);
+  padding-left: 130px;
 }
 
 .name {

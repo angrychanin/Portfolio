@@ -20,11 +20,12 @@ body {
   background-color: #eeeeee;
 }
 
-.start {
+.structure {
   position: relative;
-  top: 45%;
+  top: 48%;
   -webkit-transform: perspective(1px) translateY(-50%);
-  transform: perspective(1px) translateY(-50%);
+          transform: perspective(1px) translateY(-50%);
+  padding-left: 130px;
 }
 
 .name {
@@ -62,6 +63,18 @@ body {
   font-size: 24px;
 }
 
+.work {
+  margin-top: 30px;
+  padding-left: 130px;
+}
+
+.work2 {
+  padding-left: 130px;
+  font-size: 30px;
+  font-weight: font-weight(bold);
+  margin-bottom: 30px;
+}
+
 #about {
   font-family: "Roboto Mono", monospace;
 }
@@ -89,11 +102,16 @@ body {
   font-size: 16px;
 }
 
+.about {
+  padding-left: 130px;
+  margin-top: 30px;
+}
+
 .wrap {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 33% 33% 33%;
-  grid-template-columns: 33% 33% 33%;
+      grid-template-columns: 33% 33% 33%;
   font-size: 19.2px;
 }
 
@@ -108,9 +126,15 @@ footer {
 .btn {
   font-size: 20px;
   color: white;
+  margin-top: 20px;
 }
 
 .fa-1x {
   color: #fd7014;
+}
+
+.contact {
+  padding-left: 130px;
+  margin-top: 30px;
 }
 /*# sourceMappingURL=main.css.map */
