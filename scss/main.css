@@ -17,21 +17,22 @@ body {
 .top-jumbotron {
   height: 100vh;
   /*vh = viewport height;*/
+  background-color: #eeeeee;
 }
 
 .start {
   position: relative;
   top: 45%;
   -webkit-transform: perspective(1px) translateY(-50%);
-          transform: perspective(1px) translateY(-50%);
+  transform: perspective(1px) translateY(-50%);
 }
 
 .name {
-  color: orange;
+  color: #fd7014;
 }
 
 .p1 {
-  font-size: 38px;
+  font-size: 48px;
   font-weight: 600;
 }
 
@@ -57,6 +58,10 @@ body {
   box-shadow: 1px 9px 40px -12px black;
 }
 
+.card-title {
+  font-size: 24px;
+}
+
 #about {
   font-family: "Roboto Mono", monospace;
 }
@@ -78,5 +83,34 @@ body {
 .about-yellow {
   color: yellowgreen;
   display: inline;
+}
+
+#about {
+  font-size: 16px;
+}
+
+.wrap {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 33% 33% 33%;
+  grid-template-columns: 33% 33% 33%;
+  font-size: 19.2px;
+}
+
+footer {
+  min-height: 560px;
+}
+
+.find-me {
+  font-size: 22.4px;
+}
+
+.btn {
+  font-size: 20px;
+  color: white;
+}
+
+.fa-1x {
+  color: #fd7014;
 }
 /*# sourceMappingURL=main.css.map */

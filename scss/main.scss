@@ -1,4 +1,6 @@
 @import "font";
+@import "color";
+
 $hoverEasing: cubic-bezier(0.23, 1, 0.32, 1);
 $returnEasing: cubic-bezier(0.445, 0.05, 0.55, 0.95);
 
@@ -10,76 +12,15 @@ $returnEasing: cubic-bezier(0.445, 0.05, 0.55, 0.95);
 
 /* navbar */
 .navbar {
-  font-size: map-get($font-size, nav);
-  font-weight: map-get($font-weight, bold);
+  font-size: font-s(nav);
+  font-weight: font-w(bold);
 }
 
 body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-/* Start */
-.top-jumbotron {
-  height: 100vh; /*vh = viewport height;*/
-}
-.start {
-  position: relative;
-  top: 45%;
-  transform: perspective(1px) translateY(-50%);
-}
-
-.name {
-  color: orange;
-}
-
-.p1 {
-  font-size: 38px;
-  font-weight: 600;
-}
-
-.p2 {
-  font-size: 24px;
-}
-
-.design {
-  font-family: Georgia, "Times New Roman", Times, serif;
-  font-weight: 400;
-}
-
-/* Work */
-.card-img-top {
-  height: 250px;
-  width: 250px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.card:hover {
-  -webkit-box-shadow: -1px 9px 40px -12px black;
-  -moz-box-shadow: -1px 9px 40px -12px black;
-  box-shadow: 1px 9px 40px -12px black;
-}
-
-// about
-#about {
-  font-family: "Roboto Mono", monospace;
-}
-
-.about-method {
-  display: inline;
-  color: orange;
-}
-
-.information {
-  color: teal;
-}
-
-.this {
-  color: red;
-  display: inline;
-}
-
-.about-yellow {
-  color: yellowgreen;
-  display: inline;
-}
+@import "start";
+@import "work";
+@import "about";
+@import "contact";

@@ -1,6 +1,6 @@
 $font-size: (
   "nav": 22px,
-  "start-1": 38px,
+  "header": 48px,
   "start-2": 24px,
   "section-title": 18px,
   "work-topic": 24px,
@@ -13,3 +13,11 @@ $font-weight: (
   "normal": 400,
   "bold": 600
 );
+
+@function font-s($font-size-1) {
+  @return map-get($font-size, $font-size-1);
+}
+
+@function font-w($font-weight-1) {
+  @return map-get($font-weight, $font-weight-1);
+}
