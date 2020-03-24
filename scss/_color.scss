@@ -1,8 +1,9 @@
 $color: (
-  "dark-1": rgb(238, 238, 238),
+  "dark-1": #eeeeee,
   "orange-1": #fd7014,
   "dark-2": #222831,
-  "dark-3": #393e46
+  "dark-3": #393e46,
+  "font-white": #f9f9f9
 );
 
 @function color($color-name) {
