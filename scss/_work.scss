@@ -19,6 +19,7 @@
 .work {
   margin-top: 30px;
   padding-left: 130px;
+  font-size: 24px;
 }
 
 .work2 {
@@ -26,4 +27,25 @@
   font-size: 30px;
   font-weight: font-weight(bold);
   margin-bottom: 30px;
+}
+.card {
+  background-color: #14121c;
+}
+
+.color-w {
+  color: color(font-grey);
+}
+
+.card-title {
+  color: color(font-white);
+}
+
+.card-text {
+  color: color(font-white);
+}
+
+.btn {
+  background-color: color(orange-1);
+  border-color: color(orange-1);
+  color: color(font-white);
 }

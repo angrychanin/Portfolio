@@ -41,10 +41,12 @@ body {
 .p1 {
   font-size: 48px;
   font-weight: 600;
+  color: #f9f9f9;
 }
 
 .p2 {
   font-size: 24px;
+  color: #988e9f;
 }
 
 .design {
@@ -72,6 +74,7 @@ body {
 .work {
   margin-top: 30px;
   padding-left: 130px;
+  font-size: 24px;
 }
 
 .work2 {
@@ -81,13 +84,39 @@ body {
   margin-bottom: 30px;
 }
 
+.card {
+  background-color: #14121c;
+}
+
+.color-w {
+  color: #988e9f;
+}
+
+.card-title {
+  color: #f9f9f9;
+}
+
+.card-text {
+  color: #f9f9f9;
+}
+
+.btn {
+  background-color: #fd7014;
+  border-color: #fd7014;
+  color: #f9f9f9;
+}
+
 #about {
   font-family: "Roboto Mono", monospace;
 }
 
 .about-method {
   display: inline;
-  color: orange;
+  color: #fd7014;
+}
+
+.about-comment {
+  color: #78707e;
 }
 
 .information {
@@ -113,6 +142,26 @@ body {
   margin-top: 30px;
 }
 
+.general {
+  color: #24e33a;
+}
+
+.number {
+  color: yellow;
+}
+
+span {
+  color: #f9f9f9;
+}
+
+.dot {
+  color: #3b3553;
+}
+
+.font-white {
+  color: #f9f9f9;
+}
+
 .wrap {
   display: -ms-grid;
   display: grid;
@@ -127,6 +176,7 @@ footer {
 
 .find-me {
   font-size: 22.4px;
+  color: #f9f9f9;
 }
 
 .btn {
@@ -139,6 +189,10 @@ footer {
   color: #fd7014;
 }
 
+a {
+  color: #f9f9f9;
+}
+
 .contact {
   padding-left: 130px;
   margin-top: 30px;
@@ -146,5 +200,9 @@ footer {
 
 footer {
   background-color: #0e0d10;
+}
+
+.email {
+  color: #f9f9f9;
 }
 /*# sourceMappingURL=main.css.map */

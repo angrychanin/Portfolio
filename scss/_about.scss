@@ -5,7 +5,11 @@
 
 .about-method {
   display: inline;
-  color: orange;
+  color: color(orange-1);
+}
+
+.about-comment {
+  color: #78707e;
 }
 
 .information {
@@ -28,4 +32,23 @@
 .about {
   padding-left: 130px;
   margin-top: 30px;
+}
+
+.general {
+  color: color(green-code);
+}
+
+.number {
+  color: yellow;
+}
+span {
+  color: color(font-white);
+}
+
+.dot {
+  color: #3b3553;
+}
+
+.font-white {
+  color: color(font-white);
 }

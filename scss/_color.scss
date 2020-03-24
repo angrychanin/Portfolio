@@ -3,7 +3,10 @@ $color: (
   "orange-1": #fd7014,
   "dark-2": #222831,
   "dark-3": #393e46,
-  "font-white": #f9f9f9
+  "font-white": #f9f9f9,
+  "font-grey": #988e9f,
+  "green-code": #24e33a,
+  "dot": #3b3553
 );
 
 @function color($color-name) {
