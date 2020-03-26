@@ -1,7 +1,7 @@
 /* Start */
 .top-jumbotron {
   height: 100vh; /*vh = viewport height;*/
-  background-color: color(dark-2);
+  background-color: color(bastille);
 }
 .structure {
   position: relative;
@@ -11,21 +11,25 @@
 }
 
 .name {
-  color: color(orange-1);
+  color: color(cinnabar);
 }
 
 .p1 {
   font-size: font-s(header);
   font-weight: font-w(bold);
-  color: color(font-white);
+  color: whitesmoke;
 }
 
 .p2 {
-  font-size: font-s(start-2);
-  color: color(font-grey);
+  color: color(camouflage-green);
 }
 
 .design {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 400;
+}
+
+.start {
+  font-size: 24px;
+  color: color(camouflage-green);
 }

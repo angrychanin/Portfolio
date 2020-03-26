@@ -1,11 +1,7 @@
 // about
-#about {
-  font-family: "Roboto Mono", monospace;
-}
-
 .about-method {
   display: inline;
-  color: color(orange-1);
+  color: color(cinnabar);
 }
 
 .about-comment {
@@ -42,7 +38,7 @@
   color: yellow;
 }
 span {
-  color: color(font-white);
+  color: whitesmoke;
 }
 
 .dot {
@@ -50,5 +46,13 @@ span {
 }
 
 .font-white {
-  color: color(font-white);
+  color: whitesmoke;
+}
+
+.font-mono {
+  font-family: "Roboto Mono", monospace;
+}
+
+section.sec-about {
+  height: 100vh;
 }

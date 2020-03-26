@@ -21,7 +21,16 @@ $returnEasing: cubic-bezier(0.445, 0.05, 0.55, 0.95);
 
 body {
   font-family: "Roboto Condensed", sans-serif;
-  background-color: #14121c;
+  background: rgb(25, 23, 26);
+  background: linear-gradient(
+    180deg,
+    rgba(25, 23, 26, 0.9) 83%,
+    rgba(25, 23, 26, 1) 86%
+  );
+}
+
+h4 {
+  font-size: 16px;
 }
 
 @import "start";

@@ -16,14 +16,20 @@
 
 body {
   font-family: "Roboto Condensed", sans-serif;
-  background-color: #14121c;
+  background: #19171a;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(83%, rgba(25, 23, 26, 0.9)), color-stop(86%, #19171a));
+  background: linear-gradient(180deg, rgba(25, 23, 26, 0.9) 83%, #19171a 86%);
+}
+
+h4 {
+  font-size: 16px;
 }
 
 /* Start */
 .top-jumbotron {
   height: 100vh;
   /*vh = viewport height;*/
-  background-color: #222831;
+  background-color: #19171a;
 }
 
 .structure {
@@ -35,23 +41,27 @@ body {
 }
 
 .name {
-  color: #fd7014;
+  color: #e9322e;
 }
 
 .p1 {
   font-size: 48px;
   font-weight: 600;
-  color: #f9f9f9;
+  color: whitesmoke;
 }
 
 .p2 {
-  font-size: 24px;
-  color: #988e9f;
+  color: #959794;
 }
 
 .design {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: 400;
+}
+
+.start {
+  font-size: 24px;
+  color: #959794;
 }
 
 /* Work */
@@ -72,47 +82,48 @@ body {
 }
 
 .work {
-  margin-top: 30px;
+  padding-top: 30px;
   padding-left: 130px;
-  font-size: 24px;
 }
 
 .work2 {
   padding-left: 130px;
   font-size: 30px;
-  font-weight: font-weight(bold);
+  font-weight: 700;
   margin-bottom: 30px;
+  color: #959794;
 }
 
 .card {
-  background-color: #14121c;
-}
-
-.color-w {
-  color: #988e9f;
+  background-color: #959794;
 }
 
 .card-title {
-  color: #f9f9f9;
+  color: whitesmoke;
 }
 
 .card-text {
-  color: #f9f9f9;
+  color: whitesmoke;
 }
 
 .btn {
-  background-color: #fd7014;
-  border-color: #fd7014;
-  color: #f9f9f9;
+  background-color: #e9322e;
+  border-color: #e9322e;
+  color: whitesmoke;
 }
 
-#about {
-  font-family: "Roboto Mono", monospace;
+.work-topic {
+  font-size: 30px;
+}
+
+section.sec-work {
+  height: 90vh;
+  background: rgba(25, 23, 26, 0.6);
 }
 
 .about-method {
   display: inline;
-  color: #fd7014;
+  color: #e9322e;
 }
 
 .about-comment {
@@ -151,7 +162,7 @@ body {
 }
 
 span {
-  color: #f9f9f9;
+  color: whitesmoke;
 }
 
 .dot {
@@ -159,7 +170,15 @@ span {
 }
 
 .font-white {
-  color: #f9f9f9;
+  color: whitesmoke;
+}
+
+.font-mono {
+  font-family: "Roboto Mono", monospace;
+}
+
+section.sec-about {
+  height: 100vh;
 }
 
 .wrap {
@@ -171,26 +190,27 @@ span {
 }
 
 footer {
-  min-height: 560px;
+  min-height: 350px;
 }
 
 .find-me {
   font-size: 22.4px;
-  color: #f9f9f9;
+  color: whitesmoke;
+  margin-top: 30px;
 }
 
 .btn {
   font-size: 20px;
-  color: white;
+  color: whitesmoke;
   margin-top: 20px;
 }
 
 .fa-1x {
-  color: #fd7014;
+  color: #e9322e;
 }
 
 a {
-  color: #f9f9f9;
+  color: whitesmoke;
 }
 
 .contact {
@@ -198,11 +218,11 @@ a {
   margin-top: 30px;
 }
 
-footer {
-  background-color: #0e0d10;
+.contact {
+  background-color: #19171a;
 }
 
 .email {
-  color: #f9f9f9;
+  color: whitesmoke;
 }
 /*# sourceMappingURL=main.css.map */

@@ -17,35 +17,40 @@
 }
 
 .work {
-  margin-top: 30px;
+  padding-top: 30px;
   padding-left: 130px;
-  font-size: 24px;
 }
 
 .work2 {
   padding-left: 130px;
   font-size: 30px;
-  font-weight: font-weight(bold);
+  font-weight: 700;
   margin-bottom: 30px;
+  color: color(camouflage-green);
 }
 .card {
-  background-color: #14121c;
-}
-
-.color-w {
-  color: color(font-grey);
+  background-color: color(camouflage-green);
 }
 
 .card-title {
-  color: color(font-white);
+  color: whitesmoke;
 }
 
 .card-text {
-  color: color(font-white);
+  color: whitesmoke;
 }
 
 .btn {
-  background-color: color(orange-1);
-  border-color: color(orange-1);
-  color: color(font-white);
+  background-color: color(cinnabar);
+  border-color: color(cinnabar);
+  color: whitesmoke;
+}
+
+.work-topic {
+  font-size: 30px;
+}
+
+section.sec-work {
+  height: 90vh;
+  background: rgba(25, 23, 26, 0.6);
 }
