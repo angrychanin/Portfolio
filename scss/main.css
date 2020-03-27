@@ -9,6 +9,11 @@
   font-weight: 600;
 }
 
+.nav-logo {
+  height: 50px;
+  width: 50px;
+}
+
 .bg-dark {
   background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, black), to(#0000)) !important;
   background: linear-gradient(black 10%, #0000) !important;
@@ -123,7 +128,7 @@ h4 {
 }
 
 section.sec-work {
-  height: 90vh;
+  height: 118vh;
   background: rgba(25, 23, 26, 0.6);
 }
 
