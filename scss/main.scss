@@ -5,19 +5,25 @@ $hoverEasing: cubic-bezier(0.23, 1, 0.32, 1);
 $returnEasing: cubic-bezier(0.445, 0.05, 0.55, 0.95);
 
 // structure
+* {
+  backface-visibility: hidden;
+}
 .min100vh {
   height: 100vh;
-  min-height: 560px;
+  padding-bottom: 30px;
 }
 /* navbar */
 .navbar {
   font-size: font-s(nav);
   font-weight: font-w(bold);
+  letter-spacing: 0.1rem;
+}
+.navbar-nav li {
+  padding-right: 0.7rem;
 }
 
-.nav-logo {
-  height: 50px;
-  width: 50px;
+.navbar-brand img {
+  height: 3.5rem;
 }
 
 .bg-dark {
@@ -29,8 +35,8 @@ body {
   background: rgb(25, 23, 26);
   background: linear-gradient(
     180deg,
-    rgba(25, 23, 26, 0.97) 83%,
-    rgba(25, 23, 26, 1) 86%
+    rgba(25, 23, 26, 0.97) 85%,
+    rgba(25, 23, 26, 1) 89%
   );
 }
 

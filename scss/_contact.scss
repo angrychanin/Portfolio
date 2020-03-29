@@ -1,12 +1,13 @@
 //contact
 .wrap {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
+  grid-template-columns: auto auto auto;
   font-size: font-s(contact);
 }
 
 footer {
-  min-height: 350px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .find-me {
@@ -26,10 +27,6 @@ footer {
 }
 a {
   color: whitesmoke;
-}
-.contact {
-  padding-left: 130px;
-  margin-top: 30px;
 }
 
 .contact {

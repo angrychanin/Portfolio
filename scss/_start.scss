@@ -1,17 +1,24 @@
 /* Start */
-.top-jumbotron {
-  height: 100vh; /*vh = viewport height;*/
-  background-color: color(bastille);
+.navbar-offset-top {
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 .structure {
-  position: relative;
-  top: 48%;
-  transform: perspective(1px) translateY(-50%);
-  padding-left: 130px;
+  background-color: color(bastille);
+}
+.p-title {
+  font-size: 24px;
 }
 
+.margin-top {
+  top: 50%;
+}
 .name {
   color: color(cinnabar);
+}
+
+.start-box {
+  width: 1200px;
 }
 
 .p1 {
