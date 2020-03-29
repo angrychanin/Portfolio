@@ -1,9 +1,4 @@
 //contact
-.wrap {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  font-size: font-s(contact);
-}
 
 footer {
   padding-top: 50px;
@@ -20,6 +15,8 @@ footer {
   font-size: font-s(button);
   color: whitesmoke;
   margin-top: 20px;
+  background: color(cinnabar);
+  border: color(cinnabar);
 }
 
 .fa-1x {
@@ -36,3 +33,5 @@ a {
 .email {
   color: whitesmoke;
 }
+
+
