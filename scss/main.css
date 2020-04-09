@@ -31,8 +31,8 @@
 body {
   font-family: "Roboto Condensed", sans-serif;
   background: #19171a;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(85%, rgba(25, 23, 26, 0.97)), color-stop(87%, #19171a));
-  background: linear-gradient(180deg, rgba(25, 23, 26, 0.97) 85%, #19171a 87%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(83%, rgba(25, 23, 26, 0.97)), color-stop(85%, #19171a));
+  background: linear-gradient(180deg, rgba(25, 23, 26, 0.97) 83%, #19171a 85%);
 }
 
 h4 {
@@ -58,7 +58,7 @@ h4 {
   content: "";
   position: absolute;
   width: 0.5px;
-  height: 1400%;
+  height: 1750%;
   left: -30px;
   top: 13px;
   background: #e9322e;
@@ -305,6 +305,7 @@ span {
 footer {
   padding-top: 50px;
   padding-bottom: 50px;
+  height: 400px;
 }
 
 .find-me {
