@@ -1,29 +1,48 @@
 .timeline {
-  list-style-type: none;
   position: relative;
+  width: 1000px;
 }
 .timeline:before {
-  content: " ";
-  background: color(cinnabar);
-  display: inline-block;
+  content: "";
   position: absolute;
-  left: 1px;
-  width: 2px;
-  height: 50vh;
-  z-index: 400;
+  width: 0.5px;
+  height: 4500%;
+  left: -30px;
+  top: 13px;
+  background: color("cinnabar");
 }
-.timeline > li {
-  margin: 20px 0;
-}
-.timeline > li:before {
-  content: " ";
-  background: color(bastille);
-  display: inline-block;
+
+.timeline.alt:before {
+  content: "";
   position: absolute;
+  width: 0.5px;
+  height: 1400%;
+  left: -30px;
+  top: 13px;
+  background: color("cinnabar");
+}
+
+.timeline ul {
+  margin: 0;
+  padding: 0;
+}
+
+.timeline ul li {
+  list-style: none;
+  position: relative;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+.timeline ul li:before {
+  content: "";
+  position: absolute;
+  left: -34px;
+  z-index: 10;
+  width: 9px;
+  height: 9px;
+  top: 5px;
   border-radius: 50%;
-  border: 2px solid color(cinnabar);
-  left: -3.1px;
-  width: 10px;
-  height: 10px;
-  z-index: 400;
+  border: 2px solid color("cinnabar");
+  background-color: transparentize($color: #000000, $amount: 0);
 }
