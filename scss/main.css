@@ -40,36 +40,54 @@ h4 {
 }
 
 .timeline {
-  list-style-type: none;
   position: relative;
+  width: 1000px;
 }
 
 .timeline:before {
-  content: " ";
+  content: "";
+  position: absolute;
+  width: 0.5px;
+  height: 4500%;
+  left: -30px;
+  top: 13px;
   background: #e9322e;
-  display: inline-block;
-  position: absolute;
-  left: 1px;
-  width: 2px;
-  height: 50vh;
-  z-index: 400;
 }
 
-.timeline > li {
-  margin: 20px 0;
+.timeline.alt:before {
+  content: "";
+  position: absolute;
+  width: 0.5px;
+  height: 1400%;
+  left: -30px;
+  top: 13px;
+  background: #e9322e;
 }
 
-.timeline > li:before {
-  content: " ";
-  background: #19171a;
-  display: inline-block;
+.timeline ul {
+  margin: 0;
+  padding: 0;
+}
+
+.timeline ul li {
+  list-style: none;
+  position: relative;
+  width: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.timeline ul li:before {
+  content: "";
   position: absolute;
+  left: -34px;
+  z-index: 10;
+  width: 9px;
+  height: 9px;
+  top: 5px;
   border-radius: 50%;
   border: 2px solid #e9322e;
-  left: -3.1px;
-  width: 10px;
-  height: 10px;
-  z-index: 400;
+  background-color: black;
 }
 
 /* Start */
